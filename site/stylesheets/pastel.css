@@ -1,6 +1,10 @@
+/* ============================================
+   ADOPTAME — Estilos pastel minimalistas
+   ============================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Lora:wght@400;500;600&display=swap');
 
+/* ---- Variables ---- */
 :root {
   --pink:       #f2b8c6;
   --lavender:   #d4b8e0;
@@ -13,10 +17,12 @@
   --border:     #ede4f0;
 }
 
+/* ---- Fondo limpio ---- */
 .md-main {
   background-color: var(--bg) !important;
 }
 
+/* ---- Tipografía ---- */
 body, .md-typeset {
   font-family: 'Inter', sans-serif !important;
   font-size: 0.92rem !important;
@@ -45,6 +51,7 @@ h1, h2, h3 {
   font-size: 1.05rem !important;
 }
 
+/* ---- Header ---- */
 .md-header {
   background: #c9a0d4 !important;
   box-shadow: 0 1px 6px rgba(180, 130, 210, 0.2) !important;
@@ -56,6 +63,7 @@ h1, h2, h3 {
   font-weight: 600 !important;
 }
 
+/* ---- Tabs de navegación ---- */
 .md-tabs {
   background: #b88ccc !important;
 }
@@ -70,11 +78,13 @@ h1, h2, h3 {
   opacity: 1 !important;
 }
 
+/* ---- Contenido ---- */
 .md-content__inner {
   max-width: 820px !important;
   padding: 1.8rem 2rem !important;
 }
 
+/* ---- Tablas ---- */
 .md-typeset table:not([class]) {
   font-size: 0.88rem !important;
   border-radius: 10px !important;
@@ -104,6 +114,7 @@ h1, h2, h3 {
   background: #fbf6fe !important;
 }
 
+/* ---- Código ---- */
 .md-typeset pre {
   border-radius: 10px !important;
   font-size: 0.83rem !important;
@@ -119,6 +130,7 @@ h1, h2, h3 {
   padding: 0.1em 0.35em !important;
 }
 
+/* ---- Admoniciones ---- */
 .md-typeset .admonition {
   border-radius: 10px !important;
   border: none !important;
@@ -156,6 +168,7 @@ h1, h2, h3 {
   font-weight: 600 !important;
 }
 
+/* ---- Pestañas ---- */
 .md-typeset .tabbed-labels > label {
   font-size: 0.88rem !important;
   font-weight: 500 !important;
@@ -175,6 +188,7 @@ h1, h2, h3 {
   box-shadow: 0 2px 8px rgba(150, 100, 180, 0.08) !important;
 }
 
+/* ---- Separadores ---- */
 .md-typeset hr {
   border: none !important;
   height: 1px !important;
@@ -182,6 +196,7 @@ h1, h2, h3 {
   margin: 1.6rem 0 !important;
 }
 
+/* ---- Blockquote ---- */
 .md-typeset blockquote {
   border-left: 3px solid var(--pink) !important;
   background: #fdf5f8 !important;
@@ -192,6 +207,7 @@ h1, h2, h3 {
   font-size: 0.92rem !important;
 }
 
+/* ---- Links ---- */
 .md-typeset a {
   color: #9060c0 !important;
   font-weight: 500 !important;
@@ -203,15 +219,18 @@ h1, h2, h3 {
   text-decoration: underline !important;
 }
 
+/* ---- Sidebar ---- */
 .md-nav__link--active {
   color: #9060c0 !important;
   font-weight: 600 !important;
 }
 
+/* ---- Footer ---- */
 .md-footer {
   background: #c9a0d4 !important;
 }
 
+/* ---- Imágenes ---- */
 .md-typeset img {
   border-radius: 12px !important;
   box-shadow: 0 3px 14px rgba(150, 100, 180, 0.15) !important;
